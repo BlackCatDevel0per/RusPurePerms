@@ -6,52 +6,52 @@ main: _64FF00\PurePerms\PurePerms
 version: 1.4.2
 api: [3.0.0]
 load: POSTWORLD
-author: "64FF00 & ProjectInfinity"
+author: "64FF00 & ProjectInfinity & translate by NativeDev"
 website: https://github.com/PurePlugins/PurePerms
 permissions:
   pperms:
     description: "PurePerms by 64FF00! (Twitter: @64FF00)"
     children:
       pperms.command:
-        description: "Allows you to use all PurePerms commands."
+        description: "Позволяет использовать все команды PurePerms."
         children:
           pperms.command.addgroup:
-            description: "Allows you to add a new group to the groups list."
+            description: "Позволяет добавить новую группу в список групп."
           pperms.command.addparent:
-            description: "Allows you to add a group to another group inheritance list."	
+            description: "Позволяет добавить группу в другой список наследования групп."	
           pperms.command.defgroup:
-            description: "Allows you to set the default group manually."
+            description: "Позволяет установить группу по умолчанию вручную."
           pperms.command.fperms:
-            description: "Allows you to find permissions for a specific plugin."
+            description: "Позволяет найти разрешения для конкретного плагина."
           pperms.command.groups:
-            description: "Allows you to see a list of all groups."
+            description: "Позволяет увидеть список всех групп."
           pperms.command.listgperms:
-            description: "Allows you to see a list of all permissions from a group."
+            description: "Позволяет просмотреть список всех разрешений из группы."
           pperms.command.listuperms:
-            description: "Allows you to see a list of all permissions from a user."
+            description: "Позволяет увидеть список всех разрешений пользователя."
           pperms.command.ppinfo:
             default: true
-            description: "Allows you to get current PurePerms information."
+            description: "Позволяет получить текущую информацию о PurePerms."
           pperms.command.ppreload:
-            description: "Allows you to reload all PurePerms configurations."
+            description: "Позволяет перезагрузить все конфигурации PurePerms."
           pperms.command.rmgroup:
-            description: "Allows you to remove a group from the groups list."
+            description: "Позволяет удалить группу из списка групп."
           pperms.command.rmparent:
-            description: "Allows you to remove a group from another group inheritance list."		
+            description: "Позволяет удалить группу из другого списка наследования групп."		
           pperms.command.setgperm:
-            description: "Allows you to add a permission to the group."
+            description: "Позволяет добавить разрешение в группу."
           pperms.command.setgroup:
-            description: "Allows you to set group for a user."
+            description: "Позволяет установить группу для пользователя."
           pperms.command.setuperm:
-            description: "Allows you to add a permission to a user."
+            description: "Позволяет добавить разрешение пользователю."
           pperms.command.unsetgperm:
-            description: "Allows you to remove a permission from the group."
+            description: "Позволяет удалить разрешение из группы."
           pperms.command.unsetuperm:
-            description: "Allows you to remove a permission from the user."
+            description: "Позволяет удалить разрешение у пользователя."
           pperms.command.usrinfo:
-            description: "Allows you to see info about a user."
+            description: "Позволяет просматривать информацию о пользователе."
       pperms.noeul:
-        description: "Allows you to access all 'Noeul' related features."
+        description: "Позволяет получить доступ ко всем функциям, связанным с "Noeul"."
         children:
           pperms.noeul.ppsudo:
-            description: "Allows you to use the Noeul 'ppsudo' command."
+            description: "Позволяет использовать команду Noel 'pseudo'."

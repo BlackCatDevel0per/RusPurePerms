@@ -51,7 +51,7 @@ permissions:
           pperms.command.usrinfo:
             description: "Позволяет просматривать информацию о пользователе."
       pperms.noeul:
-        description: "Позволяет получить доступ ко всем функциям, связанным с "Noeul."
+        description: "Позволяет получить доступ ко всем функциям, связанным с Noeul."
         children:
           pperms.noeul.ppsudo:
             description: "Позволяет использовать команду Noel 'pseudo'."

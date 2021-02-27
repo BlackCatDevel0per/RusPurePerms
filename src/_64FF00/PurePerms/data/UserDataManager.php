@@ -62,8 +62,8 @@ class UserDataManager
         // TODO: ...
         if($group === null)
         {
-            $this->plugin->getLogger()->critical("Invalid group name found in " . $player->getName() . "'s player data (World: " . ($levelName === null ? "GLOBAL" : $levelName) . ")");
-            $this->plugin->getLogger()->critical("Restoring the group data to 'default'");
+            $this->plugin->getLogger()->critical("Недопустимое имя группы, найденное в " . $player->getName() . " игрока в бд игроков (Мир: " . ($levelName === null ? "GLOBAL" : $levelName) . ")");
+            $this->plugin->getLogger()->critical("Восстановление групповых данных по умолчанию");
 
             $defaultGroup = $this->plugin->getDefaultGroup($levelName);
 

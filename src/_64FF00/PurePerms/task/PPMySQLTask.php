@@ -40,11 +40,11 @@ class PPMySQLTask extends Task
     {
         if($this->db->ping())
         {
-            $this->plugin->getLogger()->debug("Connected to MySQLi Server");
+            $this->plugin->getLogger()->debug("MySQLi Сервкр успешно подключен!");
         }
         else
         {
-            $this->plugin->getLogger()->debug("[MySQL] Warning: " . $this->db->error);
+            $this->plugin->getLogger()->debug("[MySQL] Внимание!: " . $this->db->error);
         }
     }
 }

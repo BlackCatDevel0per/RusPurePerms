@@ -141,7 +141,7 @@ class MySQLProvider implements ProviderInterface
         {
             if($result01->num_rows <= 0)
             {
-                $this->plugin->getLogger()->notice("No groups found in table 'groups', loading groups defined in default SQL script");
+                $this->plugin->getLogger()->notice("Нет групп, найденных в таблице 'groups', загрузка групп, определенных в SQL-скрипте по умолчанию");
 
                 $resource = $this->plugin->getResource("mysql_deploy_02.sql");
 

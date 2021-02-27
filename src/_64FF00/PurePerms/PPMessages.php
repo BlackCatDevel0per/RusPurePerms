@@ -101,7 +101,7 @@ class PPMessages
         
         if(!isset($this->language))
         {
-            $this->plugin->getLogger()->warning("Language resource " . $defaultLang . " not found. Using default language resource by " . $this->plugin->getDescription()->getAuthors()[0]);
+            $this->plugin->getLogger()->warning("Язык " . $defaultLang . " не найден. Используется язык по умолчанию en " . $this->plugin->getDescription()->getAuthors()[0]);
             
             $this->language = "en";
         }
@@ -111,7 +111,7 @@ class PPMessages
         $this->messages = new Config($this->plugin->getDataFolder() . "messages-" . $this->language . ".yml", Config::YAML, [
         ]);
         
-        $this->plugin->getLogger()->info("Setting default language to '" . $defaultLang . "'");
+        $this->plugin->getLogger()->info("Установка языка по умолчанию на '" . $defaultLang . "'");
         
         if(version_compare($this->getVersion(), $this->plugin->getPPVersion()) === -1)
         {
